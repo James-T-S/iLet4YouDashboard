@@ -89,6 +89,12 @@
     <Compile Include="CreateStaffPage.Designer.cs">
       <DependentUpon>CreateStaffPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete.Designer.cs">
+      <DependentUpon>delete.cs</DependentUpon>
+    </Compile>
     <Compile Include="Homepage.cs">
       <SubType>Form</SubType>
     </Compile>
