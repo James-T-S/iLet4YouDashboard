@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{846A54DB-898E-4401-B13F-5C3C65C67C42}|ILet4You\\ILet4You.csproj|c:\\users\\c4017514\\source\\repos\\ilet4youdashboard\\ilet4you\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{846A54DB-898E-4401-B13F-5C3C65C67C42}|ILet4You\\ILet4You.csproj|solutionrelative:ilet4you\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|c:\\users\\c4017514\\source\\repos\\ilet4youdashboard\\ilet4you\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,12 +20,12 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\Form1.cs",
-              "RelativeDocumentMoniker": "ILet4You\\Form1.cs",
-              "ToolTip": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\Form1.cs [Design]",
-              "RelativeToolTip": "ILet4You\\Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\iLet4You\\Form1.cs",
+              "RelativeDocumentMoniker": "iLet4You\\Form1.cs",
+              "ToolTip": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\iLet4You\\Form1.cs [Design]",
+              "RelativeToolTip": "iLet4You\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T09:09:54.175Z",
+              "WhenOpened": "2025-03-12T09:19:21.111Z",
               "EditorCaption": " [Design]"
             }
           ]
