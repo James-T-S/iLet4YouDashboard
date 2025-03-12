@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\c4017514\\Source\\Repos\\iLet4YouDashboard\\ILet4You\\ILet4You.csproj": {}
+    "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\ILet4You.csproj": {}
   },
   "projects": {
-    "C:\\Users\\c4017514\\Source\\Repos\\iLet4YouDashboard\\ILet4You\\ILet4You.csproj": {
+    "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\ILet4You.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\c4017514\\Source\\Repos\\iLet4YouDashboard\\ILet4You\\ILet4You.csproj",
+        "projectUniqueName": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\ILet4You.csproj",
         "projectName": "ILet4You",
-        "projectPath": "C:\\Users\\c4017514\\Source\\Repos\\iLet4YouDashboard\\ILet4You\\ILet4You.csproj",
+        "projectPath": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\ILet4You.csproj",
         "packagesPath": "C:\\Users\\c4017514\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\c4017514\\Source\\Repos\\iLet4YouDashboard\\ILet4You\\obj\\",
         "projectStyle": "PackageReference",
