@@ -65,14 +65,95 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="AddLandlord.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AddLandlord.Designer.cs">
+      <DependentUpon>AddLandlord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProperty.Designer.cs">
+      <DependentUpon>AddProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTenantPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTenantPage.Designer.cs">
+      <DependentUpon>AddTenantPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateStaffPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateStaffPage.Designer.cs">
+      <DependentUpon>CreateStaffPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homepage.Designer.cs">
+      <DependentUpon>Homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPage.Designer.cs">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Note.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Note.Designer.cs">
+      <DependentUpon>Note.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RentHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RentHistory.Designer.cs">
+      <DependentUpon>RentHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchLandlord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchLandlord.Designer.cs">
+      <DependentUpon>SearchLandlord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchProperty.Designer.cs">
+      <DependentUpon>SearchProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchTenant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchTenant.Designer.cs">
+      <DependentUpon>SearchTenant.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddLandlord.resx">
+      <DependentUpon>AddLandlord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddProperty.resx">
+      <DependentUpon>AddProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTenantPage.resx">
+      <DependentUpon>AddTenantPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateStaffPage.resx">
+      <DependentUpon>CreateStaffPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homepage.resx">
+      <DependentUpon>Homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPage.resx">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Note.resx">
+      <DependentUpon>Note.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -82,6 +163,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RentHistory.resx">
+      <DependentUpon>RentHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchLandlord.resx">
+      <DependentUpon>SearchLandlord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchProperty.resx">
+      <DependentUpon>SearchProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchTenant.resx">
+      <DependentUpon>SearchTenant.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
