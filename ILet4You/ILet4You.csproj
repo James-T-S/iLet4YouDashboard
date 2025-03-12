@@ -83,6 +83,12 @@
     <Compile Include="AddTenantPage.Designer.cs">
       <DependentUpon>AddTenantPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="BlankLayout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BlankLayout.Designer.cs">
+      <DependentUpon>BlankLayout.cs</DependentUpon>
+    </Compile>
     <Compile Include="CreateStaffPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -147,6 +153,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddTenantPage.resx">
       <DependentUpon>AddTenantPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BlankLayout.resx">
+      <DependentUpon>BlankLayout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CreateStaffPage.resx">
       <DependentUpon>CreateStaffPage.cs</DependentUpon>

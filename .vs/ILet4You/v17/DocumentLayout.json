@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\",
+  "WorkspaceRootPath": "C:\\Users\\tasme\\OneDrive - Sheffield Hallam University\\BEng Software\\SOFTWARE PROJECTS\\GroupProject\\ILet4U\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|c:\\users\\c4017514\\source\\repos\\ilet4youdashboard\\ilet4you\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|c:\\users\\tasme\\onedrive - sheffield hallam university\\beng software\\software projects\\groupproject\\ilet4u\\ilet4you\\blanklayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\blanklayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|c:\\users\\c4017514\\source\\repos\\ilet4youdashboard\\ilet4you\\addproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|C:\\Users\\tasme\\OneDrive - Sheffield Hallam University\\BEng Software\\SOFTWARE PROJECTS\\GroupProject\\ILet4U\\ilet4you\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|C:\\Users\\tasme\\OneDrive - Sheffield Hallam University\\BEng Software\\SOFTWARE PROJECTS\\GroupProject\\ILet4U\\ilet4you\\addproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\addproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|c:\\users\\c4017514\\source\\repos\\ilet4youdashboard\\ilet4you\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|c:\\users\\tasme\\onedrive - sheffield hallam university\\beng software\\software projects\\groupproject\\ilet4u\\ilet4you\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,27 +26,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BlankLayout.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tasme\\OneDrive - Sheffield Hallam University\\BEng Software\\SOFTWARE PROJECTS\\GroupProject\\ILet4U\\ILet4You\\BlankLayout.cs",
+              "RelativeDocumentMoniker": "ILet4You\\BlankLayout.cs",
+              "ToolTip": "C:\\Users\\tasme\\OneDrive - Sheffield Hallam University\\BEng Software\\SOFTWARE PROJECTS\\GroupProject\\ILet4U\\ILet4You\\BlankLayout.cs [Design]",
+              "RelativeToolTip": "ILet4You\\BlankLayout.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T11:31:49.083Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "delete.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\iLet4You\\delete.cs",
-              "RelativeDocumentMoniker": "iLet4You\\delete.cs",
-              "ToolTip": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\iLet4You\\delete.cs [Design]",
-              "RelativeToolTip": "iLet4You\\delete.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tasme\\OneDrive - Sheffield Hallam University\\BEng Software\\SOFTWARE PROJECTS\\GroupProject\\ILet4U\\ILet4You\\delete.cs",
+              "RelativeDocumentMoniker": "ILet4You\\delete.cs",
+              "ToolTip": "C:\\Users\\tasme\\OneDrive - Sheffield Hallam University\\BEng Software\\SOFTWARE PROJECTS\\GroupProject\\ILet4U\\ILet4You\\delete.cs [Design]",
+              "RelativeToolTip": "ILet4You\\delete.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T10:49:27.67Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AddProperty.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\AddProperty.cs",
+              "DocumentMoniker": "C:\\Users\\tasme\\OneDrive - Sheffield Hallam University\\BEng Software\\SOFTWARE PROJECTS\\GroupProject\\ILet4U\\ILet4You\\AddProperty.cs",
               "RelativeDocumentMoniker": "ILet4You\\AddProperty.cs",
-              "ToolTip": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\AddProperty.cs [Design]",
+              "ToolTip": "C:\\Users\\tasme\\OneDrive - Sheffield Hallam University\\BEng Software\\SOFTWARE PROJECTS\\GroupProject\\ILet4U\\ILet4You\\AddProperty.cs [Design]",
               "RelativeToolTip": "ILet4You\\AddProperty.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T10:32:14.387Z",
@@ -50,11 +70,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LoginPage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\LoginPage.cs",
+              "DocumentMoniker": "C:\\Users\\tasme\\OneDrive - Sheffield Hallam University\\BEng Software\\SOFTWARE PROJECTS\\GroupProject\\ILet4U\\ILet4You\\LoginPage.cs",
               "RelativeDocumentMoniker": "ILet4You\\LoginPage.cs",
-              "ToolTip": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\LoginPage.cs [Design]",
+              "ToolTip": "C:\\Users\\tasme\\OneDrive - Sheffield Hallam University\\BEng Software\\SOFTWARE PROJECTS\\GroupProject\\ILet4U\\ILet4You\\LoginPage.cs [Design]",
               "RelativeToolTip": "ILet4You\\LoginPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T10:32:09.355Z",
