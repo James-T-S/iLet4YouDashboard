@@ -163,6 +163,7 @@
             this.ConfirmButton.TabIndex = 32;
             this.ConfirmButton.Text = "Confirm";
             this.ConfirmButton.UseVisualStyleBackColor = true;
+            this.ConfirmButton.Click += new System.EventHandler(this.ConfirmButton_Click);
             // 
             // AddTenantPage
             // 
