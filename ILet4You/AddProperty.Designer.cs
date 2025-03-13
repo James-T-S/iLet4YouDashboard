@@ -92,9 +92,9 @@
             this.Name.AutoSize = true;
             this.Name.Location = new System.Drawing.Point(192, 175);
             this.Name.Name = "Name";
-            this.Name.Size = new System.Drawing.Size(45, 13);
+            this.Name.Size = new System.Drawing.Size(65, 13);
             this.Name.TabIndex = 36;
-            this.Name.Text = "Address";
+            this.Name.Text = "AddProperty";
             // 
             // IDVtxt
             // 
@@ -144,6 +144,7 @@
             this.ConfirmButton.TabIndex = 42;
             this.ConfirmButton.Text = "Confirm";
             this.ConfirmButton.UseVisualStyleBackColor = true;
+            this.ConfirmButton.Click += new System.EventHandler(this.ConfirmButton_Click);
             // 
             // AddProperty
             // 

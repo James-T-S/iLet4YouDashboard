@@ -247,7 +247,7 @@
             this.Controls.Add(this.Landlordtxt);
             this.Controls.Add(this.Addresstxt);
             this.Controls.Add(this.Nametxt);
-            this.Name = "SearchProperty";
+            this.Name.Text = "SearchProperty";
             this.Text = "SearchProperty";
             this.Load += new System.EventHandler(this.SearchProperty_Load);
             this.ResumeLayout(false);

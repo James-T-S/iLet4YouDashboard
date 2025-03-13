@@ -173,7 +173,7 @@
             this.Controls.Add(this.Phonenumbertxt);
             this.Controls.Add(this.Emailtxt);
             this.Controls.Add(this.Nametxt);
-            this.Name = "AddLandlord";
+            this.Name.Text = "AddLandlord";
             this.Text = "AddLandlord";
             this.ResumeLayout(false);
             this.PerformLayout();

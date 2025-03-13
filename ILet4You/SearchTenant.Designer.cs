@@ -205,7 +205,7 @@
             this.Controls.Add(this.TenantPhonenumbertxt);
             this.Controls.Add(this.Tenanttxt);
             this.Controls.Add(this.Nametxt);
-            this.Name = "SearchTenant";
+            this.Name.Text = "SearchTenant";
             this.Text = "SearchTenant";
             this.ResumeLayout(false);
             this.PerformLayout();

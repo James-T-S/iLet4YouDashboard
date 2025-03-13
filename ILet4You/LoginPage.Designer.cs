@@ -58,7 +58,7 @@
             // Usernametxt
             // 
             this.Usernametxt.Location = new System.Drawing.Point(237, 108);
-            this.Usernametxt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Usernametxt.Margin = new System.Windows.Forms.Padding(2);
             this.Usernametxt.Name = "Usernametxt";
             this.Usernametxt.Size = new System.Drawing.Size(94, 20);
             this.Usernametxt.TabIndex = 2;
@@ -66,7 +66,7 @@
             // Passwordtxt
             // 
             this.Passwordtxt.Location = new System.Drawing.Point(237, 273);
-            this.Passwordtxt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Passwordtxt.Margin = new System.Windows.Forms.Padding(2);
             this.Passwordtxt.Name = "Passwordtxt";
             this.Passwordtxt.Size = new System.Drawing.Size(94, 20);
             this.Passwordtxt.TabIndex = 3;
@@ -79,6 +79,7 @@
             this.ConfirmButton.TabIndex = 32;
             this.ConfirmButton.Text = "Confirm";
             this.ConfirmButton.UseVisualStyleBackColor = true;
+            this.ConfirmButton.Click += new System.EventHandler(this.ConfirmButton_Click);
             // 
             // LoginPage
             // 
@@ -90,7 +91,7 @@
             this.Controls.Add(this.Usernametxt);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "LoginPage";
             this.Text = "---";
             this.ResumeLayout(false);

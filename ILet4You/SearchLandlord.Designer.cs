@@ -184,7 +184,7 @@
             this.Controls.Add(this.adresstxt);
             this.Controls.Add(this.Landlordnametxt);
             this.Controls.Add(this.Nametxt);
-            this.Name = "SearchLandlord";
+            this.Name.Text = "SearchLandlord";
             this.Text = "SearchLandlord";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -16,5 +16,11 @@ namespace iLet4You
         {
             InitializeComponent();
         }
+
+        private void ConfirmButton_Click(object sender, EventArgs e)
+        {
+            AddTenantPage addTenantPage = new AddTenantPage();
+            addTenantPage.Show();
+        }
     }
 }
