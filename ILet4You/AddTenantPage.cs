@@ -44,7 +44,7 @@ namespace iLet4You
 
         void AmendDatabase(string txtQuery)
         {
-            SQLiteConnection conn = new SQLiteConnection(@"Data Source=DBiLet4You.db";
+            SQLiteConnection conn = new SQLiteConnection(@"Data Source=DBiLet4You.db");
             conn.Open();
 
             SQLiteCommand cmd = new SQLiteCommand(txtQuery, conn);
