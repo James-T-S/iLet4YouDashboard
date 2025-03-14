@@ -17,8 +17,9 @@ namespace iLet4You
         public LandlordNotes(int LandLordID)
         {
             InitializeComponent();
-            loadnotes();
             landlordid = LandLordID;
+            loadnotes();
+           
         }
 
         private void ConfirmButton_Click(object sender, EventArgs e)
