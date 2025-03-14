@@ -62,6 +62,5 @@ namespace iLet4You
             Emailtxt.Text = "";
             Notestxt.Text = "";
         }
-
     }
 }
