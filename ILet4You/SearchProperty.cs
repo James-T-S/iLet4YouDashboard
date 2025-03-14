@@ -208,5 +208,105 @@ namespace iLet4You
             note.Show();
 
         }
+
+        private void EICREXPIRYTXT_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Postcodetxt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LABEL46456_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ISVACENTTXT_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RENTDUETXT_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RENTTXT_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GASCERTEXPIRY_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EPCEXPIRYTXT_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EPCRatingtxt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Addresstxt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SEARCHTXT_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

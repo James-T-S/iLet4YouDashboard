@@ -11,15 +11,37 @@ using System.Windows.Forms;
 
 namespace iLet4You
 {
-    public partial class LandlordNotes : Form
+    public partial class PropertyNotes : Form
     {
-        private int landlordid;
-        public LandlordNotes(int LandLordID)
+        int propertyid;
+        public PropertyNotes(int PropertyID)
         {
             InitializeComponent();
+            propertyid = PropertyID;
             loadnotes();
-            landlordid = LandLordID;
+            
         }
+
+        private void loadnotes()
+        {
+            string notes = "";
+            using (SQLiteConnection connection = new SQLiteConnection(@"Data Source=DBiLet4You.db"))
+            {
+                connection.Open();
+                string query = "SELECT P_NOTES FROM PROPERTY WHERE PROPERTYID = @PropertyID";
+                using (SQLiteCommand command = new SQLiteCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@PropertyID", propertyid);
+                    object result = command.ExecuteScalar();
+                    if (result != null)
+                    {
+                        notes = result.ToString();
+                    }
+                }
+            }
+            TenantTextBox.Text = notes;
+        }
+
 
         private void ConfirmButton_Click(object sender, EventArgs e)
         {
@@ -34,10 +56,10 @@ namespace iLet4You
             using (SQLiteConnection connection = new SQLiteConnection(@"Data Source=DBiLet4You.db"))
             {
                 connection.Open();
-                string query3 = "SELECT L_NOTES FROM LANDLORD WHERE LANDLORDID = @LandLordID";
+                string query3 = "SELECT P_NOTES FROM PROPERTY WHERE PROPERTYID = @PropertyID";
                 using (SQLiteCommand command3 = new SQLiteCommand(query3, connection))
                 {
-                    command3.Parameters.AddWithValue("@LandLordID", landlordid);
+                    command3.Parameters.AddWithValue("@PropertyID", propertyid);
                     object result = command3.ExecuteScalar();
                     if (TenantTextBox.Text != null)
                     {
@@ -66,12 +88,12 @@ namespace iLet4You
             using (SQLiteConnection connection = new SQLiteConnection(@"Data Source=DBiLet4You.db"))
             {
                 connection.Open();
-                string updateq = "UPDATE LANDLORD SET L_NOTES = @Notes WHERE LANDLORDID = @LandLordID";
+                string updateq = "UPDATE PROPERTY SET P_NOTES = @Notes WHERE PROPERTYID = @PropertyID";
 
                 using (SQLiteCommand command = new SQLiteCommand(updateq, connection))
                 {
                     command.Parameters.AddWithValue("@Notes", updatetimendate);
-                    command.Parameters.AddWithValue("@LandLordID", landlordid);
+                    command.Parameters.AddWithValue("@PropertyID", propertyid);
                     command.ExecuteNonQuery();
                 }
             }
@@ -79,32 +101,6 @@ namespace iLet4You
             EnterText.Clear();
             MessageBox.Show("UPDATED!");
 
-        }
-
-        private void LandlordNotes_Load(object sender, EventArgs e)
-        {
-
-        }
-
-
-        private void loadnotes()
-        {
-            string notes = "";
-            using (SQLiteConnection connection = new SQLiteConnection(@"Data Source=DBiLet4You.db"))
-            {
-                connection.Open();
-                string query = "SELECT L_NOTES FROM LANDLORD WHERE LANDLORDID = @LandLordID";
-                using (SQLiteCommand command = new SQLiteCommand(query, connection))
-                {
-                    command.Parameters.AddWithValue("@LandLordID", landlordid);
-                    object result = command.ExecuteScalar();
-                    if (result != null)
-                    {
-                        notes = result.ToString();
-                    }
-                }
-            }
-           TenantTextBox.Text = notes;
         }
     }
 }

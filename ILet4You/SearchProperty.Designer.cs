@@ -75,6 +75,7 @@
             this.label6.Size = new System.Drawing.Size(76, 16);
             this.label6.TabIndex = 44;
             this.label6.Text = "EPC Rating";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // Email
             // 
@@ -96,6 +97,7 @@
             this.label4.Size = new System.Drawing.Size(102, 16);
             this.label4.TabIndex = 42;
             this.label4.Text = "GAS Cert Expiry";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 
@@ -106,6 +108,7 @@
             this.label3.Size = new System.Drawing.Size(35, 16);
             this.label3.TabIndex = 41;
             this.label3.Text = "Rent";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -116,6 +119,7 @@
             this.label2.Size = new System.Drawing.Size(107, 16);
             this.label2.TabIndex = 40;
             this.label2.Text = "Search Property ";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -126,6 +130,7 @@
             this.label1.Size = new System.Drawing.Size(58, 16);
             this.label1.TabIndex = 39;
             this.label1.Text = "Address";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label
             // 
@@ -136,6 +141,7 @@
             this.label.Size = new System.Drawing.Size(50, 16);
             this.label.TabIndex = 38;
             this.label.Text = "Search";
+            this.label.Click += new System.EventHandler(this.label_Click);
             // 
             // RENTTXT
             // 
@@ -144,6 +150,7 @@
             this.RENTTXT.Name = "RENTTXT";
             this.RENTTXT.Size = new System.Drawing.Size(124, 22);
             this.RENTTXT.TabIndex = 37;
+            this.RENTTXT.TextChanged += new System.EventHandler(this.RENTTXT_TextChanged);
             // 
             // GASCERTEXPIRY
             // 
@@ -152,6 +159,7 @@
             this.GASCERTEXPIRY.Name = "GASCERTEXPIRY";
             this.GASCERTEXPIRY.Size = new System.Drawing.Size(124, 22);
             this.GASCERTEXPIRY.TabIndex = 36;
+            this.GASCERTEXPIRY.TextChanged += new System.EventHandler(this.GASCERTEXPIRY_TextChanged);
             // 
             // EPCEXPIRYTXT
             // 
@@ -160,6 +168,7 @@
             this.EPCEXPIRYTXT.Name = "EPCEXPIRYTXT";
             this.EPCEXPIRYTXT.Size = new System.Drawing.Size(124, 22);
             this.EPCEXPIRYTXT.TabIndex = 35;
+            this.EPCEXPIRYTXT.TextChanged += new System.EventHandler(this.EPCEXPIRYTXT_TextChanged);
             // 
             // EPCRatingtxt
             // 
@@ -168,6 +177,7 @@
             this.EPCRatingtxt.Name = "EPCRatingtxt";
             this.EPCRatingtxt.Size = new System.Drawing.Size(124, 22);
             this.EPCRatingtxt.TabIndex = 34;
+            this.EPCRatingtxt.TextChanged += new System.EventHandler(this.EPCRatingtxt_TextChanged);
             // 
             // Addresstxt
             // 
@@ -176,6 +186,7 @@
             this.Addresstxt.Name = "Addresstxt";
             this.Addresstxt.Size = new System.Drawing.Size(124, 22);
             this.Addresstxt.TabIndex = 33;
+            this.Addresstxt.TextChanged += new System.EventHandler(this.Addresstxt_TextChanged);
             // 
             // SEARCHTXT
             // 
@@ -184,6 +195,7 @@
             this.SEARCHTXT.Name = "SEARCHTXT";
             this.SEARCHTXT.Size = new System.Drawing.Size(124, 22);
             this.SEARCHTXT.TabIndex = 32;
+            this.SEARCHTXT.TextChanged += new System.EventHandler(this.SEARCHTXT_TextChanged);
             // 
             // RENTDUETXT
             // 
@@ -192,6 +204,7 @@
             this.RENTDUETXT.Name = "RENTDUETXT";
             this.RENTDUETXT.Size = new System.Drawing.Size(124, 22);
             this.RENTDUETXT.TabIndex = 46;
+            this.RENTDUETXT.TextChanged += new System.EventHandler(this.RENTDUETXT_TextChanged);
             // 
             // ISVACENTTXT
             // 
@@ -200,6 +213,7 @@
             this.ISVACENTTXT.Name = "ISVACENTTXT";
             this.ISVACENTTXT.Size = new System.Drawing.Size(124, 22);
             this.ISVACENTTXT.TabIndex = 47;
+            this.ISVACENTTXT.TextChanged += new System.EventHandler(this.ISVACENTTXT_TextChanged);
             // 
             // LABEL46456
             // 
@@ -210,6 +224,7 @@
             this.LABEL46456.Size = new System.Drawing.Size(95, 16);
             this.LABEL46456.TabIndex = 48;
             this.LABEL46456.Text = "Rent Due Date";
+            this.LABEL46456.Click += new System.EventHandler(this.LABEL46456_Click);
             // 
             // label7
             // 
@@ -220,6 +235,7 @@
             this.label7.Size = new System.Drawing.Size(60, 16);
             this.label7.TabIndex = 49;
             this.label7.Text = "Is vacent";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // Update
             // 
@@ -250,6 +266,7 @@
             this.Postcodetxt.Name = "Postcodetxt";
             this.Postcodetxt.Size = new System.Drawing.Size(124, 22);
             this.Postcodetxt.TabIndex = 67;
+            this.Postcodetxt.TextChanged += new System.EventHandler(this.Postcodetxt_TextChanged);
             // 
             // label8
             // 
@@ -260,6 +277,7 @@
             this.label8.Size = new System.Drawing.Size(65, 16);
             this.label8.TabIndex = 68;
             this.label8.Text = "Postcode";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // button1
             // 
@@ -279,6 +297,7 @@
             this.EICREXPIRYTXT.Name = "EICREXPIRYTXT";
             this.EICREXPIRYTXT.Size = new System.Drawing.Size(124, 22);
             this.EICREXPIRYTXT.TabIndex = 70;
+            this.EICREXPIRYTXT.TextChanged += new System.EventHandler(this.EICREXPIRYTXT_TextChanged);
             // 
             // label5
             // 
@@ -289,6 +308,7 @@
             this.label5.Size = new System.Drawing.Size(89, 16);
             this.label5.TabIndex = 71;
             this.label5.Text = "EICR EXPIRY";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // SearchProperty
             // 

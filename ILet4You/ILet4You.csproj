@@ -113,6 +113,12 @@
     <Compile Include="LoginPage.Designer.cs">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="PropertyNotescs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PropertyNotescs.Designer.cs">
+      <DependentUpon>PropertyNotescs.cs</DependentUpon>
+    </Compile>
     <Compile Include="TenantNote.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -145,11 +151,11 @@
     <Compile Include="SearchTenant.Designer.cs">
       <DependentUpon>SearchTenant.cs</DependentUpon>
     </Compile>
-    <Compile Include="TEST.CS">
+    <Compile Include="TEST.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TEST.Designer.CS">
-      <DependentUpon>TEST.CS</DependentUpon>
+    <Compile Include="TEST.Designer.cs">
+      <DependentUpon>TEST.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AddLandlord.resx">
       <DependentUpon>AddLandlord.cs</DependentUpon>
@@ -171,6 +177,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertyNotescs.resx">
+      <DependentUpon>PropertyNotescs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TenantNote.resx">
       <DependentUpon>TenantNote.cs</DependentUpon>
@@ -197,7 +206,7 @@
       <DependentUpon>SearchTenant.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TEST.resx">
-      <DependentUpon>TEST.CS</DependentUpon>
+      <DependentUpon>TEST.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="DBiLet4You.db" />
     <None Include="packages.config" />

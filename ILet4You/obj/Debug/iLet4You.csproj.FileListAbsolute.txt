@@ -28,3 +28,5 @@ C:\Users\Mohammed\Source\Repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.Sea
 C:\Users\Mohammed\Source\Repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.SearchTenant.resources
 C:\Users\Mohammed\Source\Repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.TenantNote.resources
 C:\Users\Mohammed\Source\Repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.LandlordNotes.resources
+C:\Users\Mohammed\Source\Repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.TEST.resources
+C:\Users\Mohammed\Source\Repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.PropertyNotescs.resources

@@ -39,5 +39,11 @@ namespace iLet4You
             SearchLandlord searchLandlord = new SearchLandlord();   
             searchLandlord.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            TEST tEST = new TEST();
+            tEST.Show();
+        }
     }
 }
