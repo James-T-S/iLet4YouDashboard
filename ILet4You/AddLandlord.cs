@@ -62,5 +62,10 @@ namespace iLet4You
             Emailtxt.Text = "";
             Notestxt.Text = "";
         }
+
+        private void AddLandlord_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

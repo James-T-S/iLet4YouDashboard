@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\addproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ilet4you\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ilet4you\\addlandlord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\addlandlord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ilet4you\\addlandlord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\addlandlord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ilet4you\\addlandlord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\addlandlord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ilet4you\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ilet4you\\addproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -42,15 +42,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AddLandlord.cs",
               "DocumentMoniker": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\AddLandlord.cs",
               "RelativeDocumentMoniker": "ILet4You\\AddLandlord.cs",
               "ToolTip": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\AddLandlord.cs",
               "RelativeToolTip": "ILet4You\\AddLandlord.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAACgAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAIA5wB0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T09:20:17.64Z"
+              "WhenOpened": "2025-03-14T09:20:17.64Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -61,19 +62,21 @@
               "ToolTip": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\AddLandlord.cs [Design]",
               "RelativeToolTip": "ILet4You\\AddLandlord.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T09:20:14.587Z"
+              "WhenOpened": "2025-03-14T09:20:14.587Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LoginPage.cs",
               "DocumentMoniker": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\LoginPage.cs",
               "RelativeDocumentMoniker": "ILet4You\\LoginPage.cs",
               "ToolTip": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\LoginPage.cs",
               "RelativeToolTip": "ILet4You\\LoginPage.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAD4vxYAAAAhAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAD4vwkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T08:58:54.827Z"
+              "WhenOpened": "2025-03-14T08:58:54.827Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -83,7 +86,7 @@
               "RelativeDocumentMoniker": "ILet4You\\AddProperty.cs",
               "ToolTip": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\AddProperty.cs",
               "RelativeToolTip": "ILet4You\\AddProperty.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T08:53:47.581Z",
               "EditorCaption": ""
@@ -97,7 +100,8 @@
               "ToolTip": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\AddProperty.cs [Design]",
               "RelativeToolTip": "ILet4You\\AddProperty.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T10:32:14.387Z"
+              "WhenOpened": "2025-03-12T10:32:14.387Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -21,10 +21,10 @@ namespace iLet4You
 
         private void ConfirmButton_Click(object sender, EventArgs e)
         {
-            /*string addQuery = "INSERT INTO Property(P_Address, P_Postcode, P_EPCRating, P_EPCExpiry, P_EICRExpiry," +
-                        " P_GasCertExpiry, P_Rent, P_RentDate, P_IsVacant, P_Notes) " +
-                        $"VALUES('{Addresstxt.Text}', '{Postcodetxt.Text}', '{EPCRatingtxt.Text}', '{EPCExpirytxt.Text}', '{EICRtxt.Text}'," +
-                        $" '{GasCertExpirytxt.Text}', {RentAmttxt.Text}, '{RentDatetxt.Text}', {Vacantchb.Checked}, '{Notestxt.Text}')";*/
+            //string addQuery = "INSERT INTO Property(P_Address, P_Postcode, P_EPCRating, P_EPCExpiry, P_EICRExpiry," +
+             // " P_GasCertExpiry, P_Rent, P_RentDate, P_IsVacant, P_Notes, LandlordID) " +
+                //$"VALUES('{Addresstxt.Text}', '{Postcodetxt.Text}', '{EPCRatingtxt.Text}', '{EPCExpirytxt.Text}', '{EICRtxt.Text}'," +
+                //$" '{GasCertExpirytxt.Text}', {RentAmttxt.Text}, '{RentDatetxt.Text}', {Vacantchb.Checked}, '{Notestxt.Text}', '{Landlordtxt.Text}')";
 
             using (SQLiteConnection conn = new SQLiteConnection(@"Data Source=DBiLet4You.db"))
             {
@@ -33,8 +33,8 @@ namespace iLet4You
                 {
                     try
                     {
-                        string addQuery = @"INSERT INTO PROPERTY (P_Address, P_Postcode, P_EPCRating, P_EPCExpiry, P_EICRExpiry, P_GasCertExpiry, P_Rent, P_RentDate, P_IsVacant, P_Notes) " +
-                            @"VALUES(@P_Address, @P_Postcode, @P_EPCRating, @P_EPCExpiry, @P_EICRExpiry, @P_GasCertExpiry, @P_Rent, @P_RentDate, @P_IsVacant, @P_Notes)";
+                        string addQuery = @"INSERT INTO PROPERTY (P_Address, P_Postcode, P_EPCRating, P_EPCExpiry, P_EICRExpiry, P_GasCertExpiry, P_Rent, P_RentDate, P_IsVacant, P_Notes, LandlordID) " +
+                            @"VALUES(@P_Address, @P_Postcode, @P_EPCRating, @P_EPCExpiry, @P_EICRExpiry, @P_GasCertExpiry, @P_Rent, @P_RentDate, @P_IsVacant, @P_Notes, @LandlordID)";
 
                         using (SQLiteCommand cmd = new SQLiteCommand(addQuery, conn))
                         {
@@ -48,6 +48,7 @@ namespace iLet4You
                             cmd.Parameters.AddWithValue("@P_RentDate", RentDatetxt.Text);
                             cmd.Parameters.AddWithValue("@P_IsVacant", Vacantchb.Checked);
                             cmd.Parameters.AddWithValue("@P_Notes", Notestxt.Text);
+                            cmd.Parameters.AddWithValue("@LandlordID", Landlordtxt.Text);
 
                             cmd.ExecuteNonQuery();
                         }
@@ -66,7 +67,6 @@ namespace iLet4You
                         MessageBox.Show(ex.Message);
                     }
                 }
-
             }
 
             clearTextFields();
@@ -97,7 +97,7 @@ namespace iLet4You
             RentDatetxt.Text = "";
             Vacantchb.Checked = false;
             Notestxt.Text = "";
+            Landlordtxt.Text = "";
         }
-
     }
 }

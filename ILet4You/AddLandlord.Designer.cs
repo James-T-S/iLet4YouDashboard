@@ -145,7 +145,7 @@
             // ConfirmButton
             // 
             this.ConfirmButton.Location = new System.Drawing.Point(364, 406);
-            this.ConfirmButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ConfirmButton.Margin = new System.Windows.Forms.Padding(4);
             this.ConfirmButton.Name = "ConfirmButton";
             this.ConfirmButton.Size = new System.Drawing.Size(89, 41);
             this.ConfirmButton.TabIndex = 32;
@@ -171,9 +171,10 @@
             this.Controls.Add(this.Addresstxt);
             this.Controls.Add(this.Nametxt);
             this.ForeColor = System.Drawing.Color.Black;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AddLandlord";
             this.Text = "Add Landlord";
+            this.Load += new System.EventHandler(this.AddLandlord_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
