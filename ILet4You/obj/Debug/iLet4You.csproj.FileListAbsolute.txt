@@ -18,3 +18,13 @@ C:\Users\Mohammed\source\repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.csp
 C:\Users\Mohammed\source\repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.csproj.Up2Date
 C:\Users\Mohammed\source\repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.exe
 C:\Users\Mohammed\source\repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.pdb
+C:\Users\Mohammed\Source\Repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.AddLandlord.resources
+C:\Users\Mohammed\Source\Repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.AddProperty.resources
+C:\Users\Mohammed\Source\Repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.AddTenantPage.resources
+C:\Users\Mohammed\Source\Repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.Homepage.resources
+C:\Users\Mohammed\Source\Repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.RentHistory.resources
+C:\Users\Mohammed\Source\Repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.SearchLandlord.resources
+C:\Users\Mohammed\Source\Repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.SearchProperty.resources
+C:\Users\Mohammed\Source\Repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.SearchTenant.resources
+C:\Users\Mohammed\Source\Repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.TenantNote.resources
+C:\Users\Mohammed\Source\Repos\iLet4YouDashboard\iLet4You\obj\Debug\iLet4You.LandlordNotes.resources

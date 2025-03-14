@@ -1,64 +1,188 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\",
+  "WorkspaceRootPath": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|c:\\users\\c4017514\\source\\repos\\ilet4youdashboard\\ilet4you\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ilet4you\\searchtenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\searchtenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|c:\\users\\c4017514\\source\\repos\\ilet4youdashboard\\ilet4you\\addproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\addproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ilet4you\\searchtenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\searchtenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|c:\\users\\c4017514\\source\\repos\\ilet4youdashboard\\ilet4you\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ilet4you\\searchproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\searchproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|c:\\users\\mohammed\\source\\repos\\ilet4youdashboard\\ilet4you\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ilet4you\\searchlandlord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\searchlandlord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ilet4you\\searchlandlord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\searchlandlord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|c:\\users\\mohammed\\source\\repos\\ilet4youdashboard\\ilet4you\\landlordnotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\landlordnotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|c:\\users\\mohammed\\source\\repos\\ilet4youdashboard\\ilet4you\\landlordnotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\landlordnotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|c:\\users\\mohammed\\source\\repos\\ilet4youdashboard\\ilet4you\\tenantnote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\tenantnote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ilet4you\\searchproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{147528C9-D562-48E4-B9A9-7810B82F09D4}|iLet4You\\iLet4You.csproj|solutionrelative:ilet4you\\searchproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 138,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "delete.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\iLet4You\\delete.cs",
-              "RelativeDocumentMoniker": "iLet4You\\delete.cs",
-              "ToolTip": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\iLet4You\\delete.cs [Design]",
-              "RelativeToolTip": "iLet4You\\delete.cs [Design]",
+              "DocumentIndex": 7,
+              "Title": "LandlordNotes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ILet4You\\LandlordNotes.cs",
+              "RelativeDocumentMoniker": "ILet4You\\LandlordNotes.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ILet4You\\LandlordNotes.cs [Design]",
+              "RelativeToolTip": "ILet4You\\LandlordNotes.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T10:49:27.67Z",
+              "WhenOpened": "2025-03-14T08:47:59.376Z",
+              "IsPinned": true,
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddProperty.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\AddProperty.cs",
-              "RelativeDocumentMoniker": "ILet4You\\AddProperty.cs",
-              "ToolTip": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\AddProperty.cs [Design]",
-              "RelativeToolTip": "ILet4You\\AddProperty.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "LandlordNotes.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ILet4You\\LandlordNotes.cs",
+              "RelativeDocumentMoniker": "ILet4You\\LandlordNotes.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ILet4You\\LandlordNotes.cs",
+              "RelativeToolTip": "ILet4You\\LandlordNotes.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAUwCcAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T10:32:14.387Z",
+              "WhenOpened": "2025-03-14T08:48:58.355Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SearchLandlord.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ILet4You\\SearchLandlord.cs",
+              "RelativeDocumentMoniker": "ILet4You\\SearchLandlord.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ILet4You\\SearchLandlord.cs",
+              "RelativeToolTip": "ILet4You\\SearchLandlord.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAuwMEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T07:05:26.594Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TEST.CS [Design]",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ILet4You\\TEST.CS",
+              "RelativeDocumentMoniker": "ILet4You\\TEST.CS",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ILet4You\\TEST.CS [Design]",
+              "RelativeToolTip": "ILet4You\\TEST.CS [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T08:58:45.601Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SearchLandlord.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ILet4You\\SearchLandlord.cs",
+              "RelativeDocumentMoniker": "ILet4You\\SearchLandlord.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ILet4You\\SearchLandlord.cs [Design]",
+              "RelativeToolTip": "ILet4You\\SearchLandlord.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T07:05:25.266Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginPage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\LoginPage.cs",
-              "RelativeDocumentMoniker": "ILet4You\\LoginPage.cs",
-              "ToolTip": "C:\\Users\\c4017514\\source\\repos\\iLet4YouDashboard\\ILet4You\\LoginPage.cs [Design]",
-              "RelativeToolTip": "ILet4You\\LoginPage.cs [Design]",
+              "Title": "SearchProperty.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ILet4You\\SearchProperty.cs",
+              "RelativeDocumentMoniker": "ILet4You\\SearchProperty.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ILet4You\\SearchProperty.cs",
+              "RelativeToolTip": "ILet4You\\SearchProperty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T10:32:09.355Z",
+              "WhenOpened": "2025-03-14T07:03:33.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SearchTenant.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ILet4You\\SearchTenant.cs",
+              "RelativeDocumentMoniker": "ILet4You\\SearchTenant.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ILet4You\\SearchTenant.cs",
+              "RelativeToolTip": "ILet4You\\SearchTenant.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAuwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T07:03:12.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SearchTenant.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ILet4You\\SearchTenant.cs",
+              "RelativeDocumentMoniker": "ILet4You\\SearchTenant.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ILet4You\\SearchTenant.cs [Design]",
+              "RelativeToolTip": "ILet4You\\SearchTenant.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T07:03:11.653Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SearchProperty.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ILet4You\\SearchProperty.cs",
+              "RelativeDocumentMoniker": "ILet4You\\SearchProperty.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\ILet4You\\SearchProperty.cs [Design]",
+              "RelativeToolTip": "ILet4You\\SearchProperty.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T07:03:09.926Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TenantNote.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\iLet4You\\TenantNote.cs",
+              "RelativeDocumentMoniker": "iLet4You\\TenantNote.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\source\\repos\\iLet4YouDashboard\\iLet4You\\TenantNote.cs",
+              "RelativeToolTip": "iLet4You\\TenantNote.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:03:55.194Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace iLet4You
 {
-    public partial class Note : Form
+    public partial class TEST : Form
     {
-        public Note()
+        public TEST()
         {
             InitializeComponent();
         }
