@@ -17,10 +17,10 @@ namespace iLet4You
         {
             InitializeComponent();
         }
-
-        DataTable dt3 = new DataTable();
-        DataTable dt = new DataTable();
-        DataTable dt2 = new DataTable();
+        DataTable dt = new DataTable();//for tenant
+        DataTable dt2 = new DataTable();//property
+        DataTable dt3 = new DataTable();//Landlord indivial search
+        DataTable dt4 = new DataTable();//LANDLORD SEARCH WHEN SEARCHING FROM PROPERTY
 
         int currentlandlordindex = -1;
         int currenttenantindex = -1;
@@ -215,6 +215,77 @@ namespace iLet4You
                 RENTTXT.Text = row["P_RENT"].ToString();
                 RENTDUETXT.Text = row["P_RENTDATE"].ToString();
                 ISVACENTTXT.Text = row["P_ISVACANT"].ToString();
+
+
+
+                int LandlordID = Convert.ToInt32(row["LANDLORDID"]);
+                try
+                {
+                    using (SQLiteConnection connection = new SQLiteConnection(@"Data Source=DBiLet4You.db"))
+                    {
+                        connection.Open();
+                        string query ="SELECT * FROM LANDLORD WHERE LANDLORDID = @LandlordID";
+                        using(SQLiteCommand showlandlord = new SQLiteCommand(query,connection))
+                        {
+                            showlandlord.Parameters.AddWithValue("@LandlordID", LandlordID);
+                            SQLiteDataAdapter data = new SQLiteDataAdapter(showlandlord);
+                            dt4.Clear();
+                            data.Fill(dt4);
+                        }
+                    }
+
+                    if(dt4.Rows.Count > 0)
+                    {
+                        DataRow landlordrow = dt4.Rows[0];
+                        LFnametxt.Text = landlordrow["L_FNAME"].ToString();
+                        LMnametxt.Text = landlordrow["L_MNAME"].ToString();
+                        LLnametxt.Text = landlordrow["L_LNAME"].ToString();
+                        LaddressTxt.Text = landlordrow["L_ADDRESS"].ToString();
+                        LPhonenumbertxt.Text = landlordrow["L_PHONENO"].ToString();
+                        LEmailtxt.Text = landlordrow["L_EMAIL"].ToString();
+
+                    }
+                    else
+                    {
+                        clearfields();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                int PropertyID = Convert.ToInt32(row["PROPERTYID"]);
+                try
+                {
+                    using (SQLiteConnection connection = new SQLiteConnection(@"Data Source=DBiLet4You.db"))
+                    {
+                        connection.Open();
+                        string query = @"SELECT t.* FROM TENANT t INNER JOIN LEASEAGREEMNT l ON t.TENANTID = l.TENANTID WHERE l.PROPERTYID = @PropertyID";
+                        using (SQLiteCommand showtenant = new SQLiteCommand(query,connection))
+                        {
+                            showtenant.Parameters.AddWithValue("@PropertyID", PropertyID);
+                            SQLiteDataAdapter data = new SQLiteDataAdapter(showtenant);
+                            dt2.Clear();
+                            data.Fill(dt2);
+                        }
+                    }
+
+                    if (dt2.Rows.Count > 0)
+                    {
+                        currenttenantindex = 0;
+                        Displaysearch3();
+                    }
+                    else
+                    {
+                        clearfields2();
+                    }
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show(ex.Message); 
+                }
+                
+
             }
         }
         private void Displaysearch3()
