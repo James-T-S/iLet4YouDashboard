@@ -57,110 +57,103 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(261, 259);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(196, 210);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(83, 16);
+            this.label6.Size = new System.Drawing.Size(69, 13);
             this.label6.TabIndex = 41;
             this.label6.Text = "Rent Amount";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(241, 166);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(181, 135);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(106, 16);
+            this.label5.Size = new System.Drawing.Size(85, 13);
             this.label5.TabIndex = 40;
             this.label5.Text = "EPC Expiry Date";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(274, 348);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(206, 283);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 16);
+            this.label4.Size = new System.Drawing.Size(58, 13);
             this.label4.TabIndex = 39;
             this.label4.Text = "Is Vacant?";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(451, 31);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(338, 25);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 16);
+            this.label2.Size = new System.Drawing.Size(68, 13);
             this.label2.TabIndex = 38;
             this.label2.Text = "Add Property";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(213, 229);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(160, 186);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(131, 16);
+            this.label1.Size = new System.Drawing.Size(105, 13);
             this.label1.TabIndex = 37;
             this.label1.Text = "Gas Cert Expiry Date";
             // 
             // address
             // 
             this.address.AutoSize = true;
-            this.address.Location = new System.Drawing.Point(285, 76);
-            this.address.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.address.Location = new System.Drawing.Point(214, 62);
             this.address.Name = "address";
-            this.address.Size = new System.Drawing.Size(58, 16);
+            this.address.Size = new System.Drawing.Size(45, 13);
             this.address.TabIndex = 36;
             this.address.Text = "Address";
             // 
             // Notestxt
             // 
-            this.Notestxt.Location = new System.Drawing.Point(360, 375);
-            this.Notestxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Notestxt.Location = new System.Drawing.Point(270, 305);
+            this.Notestxt.Margin = new System.Windows.Forms.Padding(2);
             this.Notestxt.Multiline = true;
             this.Notestxt.Name = "Notestxt";
-            this.Notestxt.Size = new System.Drawing.Size(275, 79);
+            this.Notestxt.Size = new System.Drawing.Size(207, 65);
             this.Notestxt.TabIndex = 35;
             // 
             // EPCExpirytxt
             // 
-            this.EPCExpirytxt.Location = new System.Drawing.Point(360, 166);
-            this.EPCExpirytxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.EPCExpirytxt.Location = new System.Drawing.Point(270, 135);
+            this.EPCExpirytxt.Margin = new System.Windows.Forms.Padding(2);
             this.EPCExpirytxt.Name = "EPCExpirytxt";
-            this.EPCExpirytxt.Size = new System.Drawing.Size(273, 22);
+            this.EPCExpirytxt.Size = new System.Drawing.Size(206, 20);
             this.EPCExpirytxt.TabIndex = 34;
             // 
             // RentDatetxt
             // 
-            this.RentDatetxt.Location = new System.Drawing.Point(360, 289);
-            this.RentDatetxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.RentDatetxt.Location = new System.Drawing.Point(270, 235);
+            this.RentDatetxt.Margin = new System.Windows.Forms.Padding(2);
             this.RentDatetxt.Name = "RentDatetxt";
-            this.RentDatetxt.Size = new System.Drawing.Size(273, 22);
+            this.RentDatetxt.Size = new System.Drawing.Size(206, 20);
             this.RentDatetxt.TabIndex = 33;
             // 
             // RentAmttxt
             // 
-            this.RentAmttxt.Location = new System.Drawing.Point(360, 260);
-            this.RentAmttxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.RentAmttxt.Location = new System.Drawing.Point(270, 211);
+            this.RentAmttxt.Margin = new System.Windows.Forms.Padding(2);
             this.RentAmttxt.Name = "RentAmttxt";
-            this.RentAmttxt.Size = new System.Drawing.Size(273, 22);
+            this.RentAmttxt.Size = new System.Drawing.Size(206, 20);
             this.RentAmttxt.TabIndex = 32;
             // 
             // Addresstxt
             // 
-            this.Addresstxt.Location = new System.Drawing.Point(360, 73);
-            this.Addresstxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Addresstxt.Location = new System.Drawing.Point(270, 59);
+            this.Addresstxt.Margin = new System.Windows.Forms.Padding(2);
             this.Addresstxt.Name = "Addresstxt";
-            this.Addresstxt.Size = new System.Drawing.Size(273, 22);
+            this.Addresstxt.Size = new System.Drawing.Size(206, 20);
             this.Addresstxt.TabIndex = 31;
             // 
             // ConfirmButton
             // 
-            this.ConfirmButton.Location = new System.Drawing.Point(456, 483);
-            this.ConfirmButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ConfirmButton.Location = new System.Drawing.Point(342, 392);
             this.ConfirmButton.Name = "ConfirmButton";
-            this.ConfirmButton.Size = new System.Drawing.Size(89, 41);
+            this.ConfirmButton.Size = new System.Drawing.Size(67, 33);
             this.ConfirmButton.TabIndex = 42;
             this.ConfirmButton.Text = "Confirm";
             this.ConfirmButton.UseVisualStyleBackColor = true;
@@ -169,116 +162,108 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(278, 106);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(208, 86);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 16);
+            this.label3.Size = new System.Drawing.Size(52, 13);
             this.label3.TabIndex = 43;
             this.label3.Text = "Postcode";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(271, 139);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(203, 113);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(76, 16);
+            this.label7.Size = new System.Drawing.Size(62, 13);
             this.label7.TabIndex = 44;
             this.label7.Text = "EPC Rating";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(269, 197);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(202, 160);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(78, 16);
+            this.label8.Size = new System.Drawing.Size(63, 13);
             this.label8.TabIndex = 45;
             this.label8.Text = "EICR Expiry";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(278, 289);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(208, 235);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(67, 16);
+            this.label9.Size = new System.Drawing.Size(56, 13);
             this.label9.TabIndex = 46;
             this.label9.Text = "Rent Date";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(305, 379);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(229, 308);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(43, 16);
+            this.label10.Size = new System.Drawing.Size(35, 13);
             this.label10.TabIndex = 47;
             this.label10.Text = "Notes";
             // 
             // Postcodetxt
             // 
-            this.Postcodetxt.Location = new System.Drawing.Point(360, 103);
-            this.Postcodetxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Postcodetxt.Location = new System.Drawing.Point(270, 84);
             this.Postcodetxt.Name = "Postcodetxt";
-            this.Postcodetxt.Size = new System.Drawing.Size(273, 22);
+            this.Postcodetxt.Size = new System.Drawing.Size(206, 20);
             this.Postcodetxt.TabIndex = 48;
             // 
             // EPCRatingtxt
             // 
-            this.EPCRatingtxt.Location = new System.Drawing.Point(360, 135);
-            this.EPCRatingtxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.EPCRatingtxt.Location = new System.Drawing.Point(270, 110);
             this.EPCRatingtxt.Name = "EPCRatingtxt";
-            this.EPCRatingtxt.Size = new System.Drawing.Size(273, 22);
+            this.EPCRatingtxt.Size = new System.Drawing.Size(206, 20);
             this.EPCRatingtxt.TabIndex = 49;
             // 
             // EICRtxt
             // 
-            this.EICRtxt.Location = new System.Drawing.Point(360, 197);
-            this.EICRtxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.EICRtxt.Location = new System.Drawing.Point(270, 160);
             this.EICRtxt.Name = "EICRtxt";
-            this.EICRtxt.Size = new System.Drawing.Size(273, 22);
+            this.EICRtxt.Size = new System.Drawing.Size(206, 20);
             this.EICRtxt.TabIndex = 50;
             // 
             // GasCertExpirytxt
             // 
-            this.GasCertExpirytxt.Location = new System.Drawing.Point(360, 229);
-            this.GasCertExpirytxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GasCertExpirytxt.Location = new System.Drawing.Point(270, 186);
             this.GasCertExpirytxt.Name = "GasCertExpirytxt";
-            this.GasCertExpirytxt.Size = new System.Drawing.Size(273, 22);
+            this.GasCertExpirytxt.Size = new System.Drawing.Size(206, 20);
             this.GasCertExpirytxt.TabIndex = 51;
             // 
             // Vacantchb
             // 
             this.Vacantchb.AutoSize = true;
-            this.Vacantchb.Location = new System.Drawing.Point(360, 348);
-            this.Vacantchb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Vacantchb.Location = new System.Drawing.Point(270, 283);
             this.Vacantchb.Name = "Vacantchb";
-            this.Vacantchb.Size = new System.Drawing.Size(18, 17);
+            this.Vacantchb.Size = new System.Drawing.Size(15, 14);
             this.Vacantchb.TabIndex = 52;
             this.Vacantchb.UseVisualStyleBackColor = true;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(271, 315);
+            this.label11.Location = new System.Drawing.Point(203, 256);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(76, 16);
+            this.label11.Size = new System.Drawing.Size(62, 13);
             this.label11.TabIndex = 53;
             this.label11.Text = "Landlord ID";
             // 
             // Landlordtxt
             // 
-            this.Landlordtxt.Location = new System.Drawing.Point(360, 316);
+            this.Landlordtxt.Location = new System.Drawing.Point(270, 257);
+            this.Landlordtxt.Margin = new System.Windows.Forms.Padding(2);
             this.Landlordtxt.Name = "Landlordtxt";
-            this.Landlordtxt.Size = new System.Drawing.Size(273, 22);
+            this.Landlordtxt.Size = new System.Drawing.Size(206, 20);
             this.Landlordtxt.TabIndex = 54;
             // 
             // AddProperty
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Landlordtxt);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.Vacantchb);
@@ -303,7 +288,6 @@
             this.Controls.Add(this.RentDatetxt);
             this.Controls.Add(this.RentAmttxt);
             this.Controls.Add(this.Addresstxt);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AddProperty";
             this.Text = "AddProperty";
             this.ResumeLayout(false);

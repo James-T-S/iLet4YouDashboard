@@ -21,10 +21,10 @@ namespace iLet4You
 
         private void ConfirmButton_Click(object sender, EventArgs e)
         {
-            //string addQuery = "INSERT INTO Property(P_Address, P_Postcode, P_EPCRating, P_EPCExpiry, P_EICRExpiry," +
-             // " P_GasCertExpiry, P_Rent, P_RentDate, P_IsVacant, P_Notes, LandlordID) " +
-                //$"VALUES('{Addresstxt.Text}', '{Postcodetxt.Text}', '{EPCRatingtxt.Text}', '{EPCExpirytxt.Text}', '{EICRtxt.Text}'," +
-                //$" '{GasCertExpirytxt.Text}', {RentAmttxt.Text}, '{RentDatetxt.Text}', {Vacantchb.Checked}, '{Notestxt.Text}', '{Landlordtxt.Text}')";
+            /*string addQuery = "INSERT INTO Property(P_Address, P_Postcode, P_EPCRating, P_EPCExpiry, P_EICRExpiry," +
+            " P_GasCertExpiry, P_Rent, P_RentDate, P_IsVacant, P_Notes, LandlordID) " +
+            $"VALUES('{Addresstxt.Text}', '{Postcodetxt.Text}', '{EPCRatingtxt.Text}', '{EPCExpirytxt.Text}', '{EICRtxt.Text}'," +
+            $" '{GasCertExpirytxt.Text}', {RentAmttxt.Text}, '{RentDatetxt.Text}', {Vacantchb.Checked}, '{Notestxt.Text}', '{Landlordtxt.Text}')";*/
 
             using (SQLiteConnection conn = new SQLiteConnection(@"Data Source=DBiLet4You.db"))
             {
@@ -44,7 +44,7 @@ namespace iLet4You
                             cmd.Parameters.AddWithValue("@P_EPCExpiry", EPCExpirytxt.Text);
                             cmd.Parameters.AddWithValue("@P_EICRExpiry", EICRtxt.Text);
                             cmd.Parameters.AddWithValue("@P_GasCertExpiry", GasCertExpirytxt.Text);
-                            cmd.Parameters.AddWithValue("@P_Rent", RentAmttxt.Text);
+                            cmd.Parameters.AddWithValue("@P_Rent", Convert.ToDecimal(RentAmttxt.Text));
                             cmd.Parameters.AddWithValue("@P_RentDate", RentDatetxt.Text);
                             cmd.Parameters.AddWithValue("@P_IsVacant", Vacantchb.Checked);
                             cmd.Parameters.AddWithValue("@P_Notes", Notestxt.Text);
@@ -61,6 +61,7 @@ namespace iLet4You
                             propertyID = Convert.ToInt32(getIdCmd.ExecuteScalar());
                         }
 
+                        transaction.Commit();
                     }
                     catch (Exception ex)
                     {

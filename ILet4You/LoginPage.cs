@@ -19,8 +19,7 @@ namespace iLet4You
 
         private void ConfirmButton_Click(object sender, EventArgs e)
         {
-            AddProperty addTenantPage = new AddProperty();
-            addTenantPage.Show();
+
         }
     }
 }
