@@ -19,7 +19,8 @@ namespace iLet4You
 
         private void ConfirmButton_Click(object sender, EventArgs e)
         {
-
+            AddTenantPage addLandlord = new AddTenantPage();
+            addLandlord.ShowDialog();
         }
     }
 }

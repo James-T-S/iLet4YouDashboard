@@ -21,11 +21,6 @@ namespace iLet4You
 
         private void ConfirmButton_Click(object sender, EventArgs e)
         {
-            /*string addQuery = "INSERT INTO Property(P_Address, P_Postcode, P_EPCRating, P_EPCExpiry, P_EICRExpiry," +
-            " P_GasCertExpiry, P_Rent, P_RentDate, P_IsVacant, P_Notes, LandlordID) " +
-            $"VALUES('{Addresstxt.Text}', '{Postcodetxt.Text}', '{EPCRatingtxt.Text}', '{EPCExpirytxt.Text}', '{EICRtxt.Text}'," +
-            $" '{GasCertExpirytxt.Text}', {RentAmttxt.Text}, '{RentDatetxt.Text}', {Vacantchb.Checked}, '{Notestxt.Text}', '{Landlordtxt.Text}')";*/
-
             using (SQLiteConnection conn = new SQLiteConnection(@"Data Source=DBiLet4You.db"))
             {
                 conn.Open();
@@ -71,18 +66,6 @@ namespace iLet4You
             }
 
             clearTextFields();
-        }
-
-
-        void AmendDatabase(string txtQuery)
-        {
-            SQLiteConnection conn = new SQLiteConnection(@"Data Source=DBiLet4You.db");
-            conn.Open();
-
-            SQLiteCommand cmd = new SQLiteCommand(txtQuery, conn);
-            cmd.ExecuteNonQuery();
-
-            conn.Close();
         }
 
 

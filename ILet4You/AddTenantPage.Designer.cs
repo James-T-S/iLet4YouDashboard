@@ -30,7 +30,7 @@
         {
             this.Nametxt = new System.Windows.Forms.TextBox();
             this.Emailtxt = new System.Windows.Forms.TextBox();
-            this.Phonenumbertxt = new System.Windows.Forms.TextBox();
+            this.PhoneNotxt = new System.Windows.Forms.TextBox();
             this.DOBtxt = new System.Windows.Forms.TextBox();
             this.DBStxt = new System.Windows.Forms.TextBox();
             this.Namelbl = new System.Windows.Forms.Label();
@@ -46,110 +46,103 @@
             // 
             // Nametxt
             // 
-            this.Nametxt.Location = new System.Drawing.Point(317, 224);
-            this.Nametxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Nametxt.Location = new System.Drawing.Point(238, 182);
+            this.Nametxt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Nametxt.Name = "Nametxt";
-            this.Nametxt.Size = new System.Drawing.Size(295, 22);
+            this.Nametxt.Size = new System.Drawing.Size(222, 20);
             this.Nametxt.TabIndex = 5;
             // 
             // Emailtxt
             // 
-            this.Emailtxt.Location = new System.Drawing.Point(317, 254);
-            this.Emailtxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Emailtxt.Location = new System.Drawing.Point(238, 206);
+            this.Emailtxt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Emailtxt.Name = "Emailtxt";
-            this.Emailtxt.Size = new System.Drawing.Size(295, 22);
+            this.Emailtxt.Size = new System.Drawing.Size(222, 20);
             this.Emailtxt.TabIndex = 6;
             // 
-            // Phonenumbertxt
+            // PhoneNotxt
             // 
-            this.Phonenumbertxt.Location = new System.Drawing.Point(317, 283);
-            this.Phonenumbertxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Phonenumbertxt.Name = "Phonenumbertxt";
-            this.Phonenumbertxt.Size = new System.Drawing.Size(295, 22);
-            this.Phonenumbertxt.TabIndex = 7;
+            this.PhoneNotxt.Location = new System.Drawing.Point(238, 230);
+            this.PhoneNotxt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PhoneNotxt.Name = "PhoneNotxt";
+            this.PhoneNotxt.Size = new System.Drawing.Size(222, 20);
+            this.PhoneNotxt.TabIndex = 7;
             // 
             // DOBtxt
             // 
-            this.DOBtxt.Location = new System.Drawing.Point(317, 313);
-            this.DOBtxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.DOBtxt.Location = new System.Drawing.Point(238, 254);
+            this.DOBtxt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DOBtxt.Name = "DOBtxt";
-            this.DOBtxt.Size = new System.Drawing.Size(295, 22);
+            this.DOBtxt.Size = new System.Drawing.Size(222, 20);
             this.DOBtxt.TabIndex = 8;
             // 
             // DBStxt
             // 
-            this.DBStxt.Location = new System.Drawing.Point(317, 342);
-            this.DBStxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.DBStxt.Location = new System.Drawing.Point(238, 278);
+            this.DBStxt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DBStxt.Name = "DBStxt";
-            this.DBStxt.Size = new System.Drawing.Size(295, 22);
+            this.DBStxt.Size = new System.Drawing.Size(222, 20);
             this.DBStxt.TabIndex = 9;
             // 
             // Namelbl
             // 
             this.Namelbl.AutoSize = true;
-            this.Namelbl.Location = new System.Drawing.Point(252, 228);
-            this.Namelbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Namelbl.Location = new System.Drawing.Point(189, 185);
             this.Namelbl.Name = "Namelbl";
-            this.Namelbl.Size = new System.Drawing.Size(44, 16);
+            this.Namelbl.Size = new System.Drawing.Size(35, 13);
             this.Namelbl.TabIndex = 11;
             this.Namelbl.Text = "Name";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(256, 257);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(192, 209);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 16);
+            this.label1.Size = new System.Drawing.Size(32, 13);
             this.label1.TabIndex = 12;
             this.label1.Text = "Email";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(417, 186);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(313, 151);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 16);
+            this.label2.Size = new System.Drawing.Size(68, 13);
             this.label2.TabIndex = 13;
             this.label2.Text = "Add Tenants";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(207, 346);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(155, 281);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 16);
+            this.label4.Size = new System.Drawing.Size(69, 13);
             this.label4.TabIndex = 15;
             this.label4.Text = "DBS Number";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(252, 316);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(189, 257);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(36, 16);
+            this.label5.Size = new System.Drawing.Size(30, 13);
             this.label5.TabIndex = 16;
             this.label5.Text = "DOB";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(195, 287);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(146, 233);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(97, 16);
+            this.label6.Size = new System.Drawing.Size(78, 13);
             this.label6.TabIndex = 17;
             this.label6.Text = "Phone Number";
             // 
             // ConfirmButton
             // 
-            this.ConfirmButton.Location = new System.Drawing.Point(419, 437);
-            this.ConfirmButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ConfirmButton.Location = new System.Drawing.Point(314, 355);
             this.ConfirmButton.Name = "ConfirmButton";
-            this.ConfirmButton.Size = new System.Drawing.Size(89, 41);
+            this.ConfirmButton.Size = new System.Drawing.Size(67, 33);
             this.ConfirmButton.TabIndex = 32;
             this.ConfirmButton.Text = "Confirm";
             this.ConfirmButton.UseVisualStyleBackColor = true;
@@ -158,26 +151,24 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(252, 378);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(189, 307);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 16);
+            this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 33;
             this.label3.Text = "Notes";
             // 
             // Notestxt
             // 
-            this.Notestxt.Location = new System.Drawing.Point(317, 374);
-            this.Notestxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Notestxt.Location = new System.Drawing.Point(238, 304);
             this.Notestxt.Name = "Notestxt";
-            this.Notestxt.Size = new System.Drawing.Size(295, 22);
+            this.Notestxt.Size = new System.Drawing.Size(222, 20);
             this.Notestxt.TabIndex = 34;
             // 
             // AddTenantPage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Notestxt);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.ConfirmButton);
@@ -189,10 +180,9 @@
             this.Controls.Add(this.Namelbl);
             this.Controls.Add(this.DBStxt);
             this.Controls.Add(this.DOBtxt);
-            this.Controls.Add(this.Phonenumbertxt);
+            this.Controls.Add(this.PhoneNotxt);
             this.Controls.Add(this.Emailtxt);
             this.Controls.Add(this.Nametxt);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AddTenantPage";
             this.Text = "AddTenantPage";
             this.ResumeLayout(false);
@@ -204,7 +194,7 @@
 
         private System.Windows.Forms.TextBox Nametxt;
         private System.Windows.Forms.TextBox Emailtxt;
-        private System.Windows.Forms.TextBox Phonenumbertxt;
+        private System.Windows.Forms.TextBox PhoneNotxt;
         private System.Windows.Forms.TextBox DOBtxt;
         private System.Windows.Forms.TextBox DBStxt;
         private System.Windows.Forms.Label Namelbl;
