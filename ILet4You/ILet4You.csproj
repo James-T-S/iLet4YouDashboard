@@ -65,35 +65,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddLandlord.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddLandlord.Designer.cs">
-      <DependentUpon>AddLandlord.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AddProperty.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddProperty.Designer.cs">
-      <DependentUpon>AddProperty.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AddTenantPage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddTenantPage.Designer.cs">
-      <DependentUpon>AddTenantPage.cs</DependentUpon>
-    </Compile>
     <Compile Include="CreateStaffPage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CreateStaffPage.Designer.cs">
       <DependentUpon>CreateStaffPage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="delete.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="delete.Designer.cs">
-      <DependentUpon>delete.cs</DependentUpon>
     </Compile>
     <Compile Include="Homepage.cs">
       <SubType>Form</SubType>
@@ -107,11 +83,11 @@
     <Compile Include="LandlordNotes.Designer.cs">
       <DependentUpon>LandlordNotes.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginPage.cs">
+    <Compile Include="MainPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginPage.Designer.cs">
-      <DependentUpon>LoginPage.cs</DependentUpon>
+    <Compile Include="MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
     </Compile>
     <Compile Include="PropertyNotescs.cs">
       <SubType>Form</SubType>
@@ -133,39 +109,18 @@
     <Compile Include="RentHistory.Designer.cs">
       <DependentUpon>RentHistory.cs</DependentUpon>
     </Compile>
-    <Compile Include="SearchLandlord.cs">
+    <Compile Include="Search.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SearchLandlord.Designer.cs">
-      <DependentUpon>SearchLandlord.cs</DependentUpon>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
     </Compile>
-    <Compile Include="SearchProperty.cs">
+    <Compile Include="Add.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SearchProperty.Designer.cs">
-      <DependentUpon>SearchProperty.cs</DependentUpon>
+    <Compile Include="Add.Designer.cs">
+      <DependentUpon>Add.cs</DependentUpon>
     </Compile>
-    <Compile Include="SearchTenant.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SearchTenant.Designer.cs">
-      <DependentUpon>SearchTenant.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TEST.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TEST.Designer.cs">
-      <DependentUpon>TEST.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="AddLandlord.resx">
-      <DependentUpon>AddLandlord.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AddProperty.resx">
-      <DependentUpon>AddProperty.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AddTenantPage.resx">
-      <DependentUpon>AddTenantPage.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CreateStaffPage.resx">
       <DependentUpon>CreateStaffPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -175,8 +130,8 @@
     <EmbeddedResource Include="LandlordNotes.resx">
       <DependentUpon>LandlordNotes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginPage.resx">
-      <DependentUpon>LoginPage.cs</DependentUpon>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PropertyNotescs.resx">
       <DependentUpon>PropertyNotescs.cs</DependentUpon>
@@ -196,17 +151,11 @@
     <EmbeddedResource Include="RentHistory.resx">
       <DependentUpon>RentHistory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchLandlord.resx">
-      <DependentUpon>SearchLandlord.cs</DependentUpon>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchProperty.resx">
-      <DependentUpon>SearchProperty.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SearchTenant.resx">
-      <DependentUpon>SearchTenant.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TEST.resx">
-      <DependentUpon>TEST.cs</DependentUpon>
+    <EmbeddedResource Include="Add.resx">
+      <DependentUpon>Add.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="DBiLet4You.db" />
     <None Include="packages.config" />
