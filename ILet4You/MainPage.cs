@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace iLet4You
 {
-    public partial class LoginPage : Form
+    public partial class MainPage : Form
     {
-        public LoginPage()
+        public MainPage()
         {
             InitializeComponent();
         }
@@ -42,7 +42,13 @@ namespace iLet4You
 
         private void button3_Click(object sender, EventArgs e)
         {
-            TEST tEST = new TEST();
+            Search tEST = new Search();
+            tEST.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Add tEST = new Add();   
             tEST.Show();
         }
     }

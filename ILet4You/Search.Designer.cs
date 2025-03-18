@@ -1,6 +1,6 @@
 ﻿namespace iLet4You
 {
-    partial class TEST
+    partial class Search
     {
         /// <summary>
         /// Required designer variable.
@@ -30,8 +30,6 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
             this.weoewjfowileabe = new System.Windows.Forms.Label();
             this.LaddressTxt = new System.Windows.Forms.TextBox();
@@ -51,6 +49,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label4535 = new System.Windows.Forms.Label();
             this.Nametxt = new System.Windows.Forms.TextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.Clearbutton = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -70,6 +69,7 @@
             this.TenantPhonenumbertxt = new System.Windows.Forms.TextBox();
             this.TenantFnametxt = new System.Windows.Forms.TextBox();
             this.SearchBartxt = new System.Windows.Forms.TextBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.label12 = new System.Windows.Forms.Label();
             this.EICREXPIRYTXT = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
@@ -95,6 +95,8 @@
             this.EPCRatingtxt = new System.Windows.Forms.TextBox();
             this.Addresstxt = new System.Windows.Forms.TextBox();
             this.SEARCHTXT = new System.Windows.Forms.TextBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.button7 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -106,10 +108,10 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(15, 29);
+            this.tabControl1.Location = new System.Drawing.Point(186, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(732, 409);
+            this.tabControl1.Size = new System.Drawing.Size(621, 426);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage1
@@ -136,75 +138,11 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(724, 380);
+            this.tabPage1.Size = new System.Drawing.Size(613, 397);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.Clearbutton);
-            this.tabPage2.Controls.Add(this.label3);
-            this.tabPage2.Controls.Add(this.label4);
-            this.tabPage2.Controls.Add(this.TenantLnametxt);
-            this.tabPage2.Controls.Add(this.TenantMnametxt);
-            this.tabPage2.Controls.Add(this.Notesbutton);
-            this.tabPage2.Controls.Add(this.NotesUpdate);
-            this.tabPage2.Controls.Add(this.button2);
-            this.tabPage2.Controls.Add(this.label7);
-            this.tabPage2.Controls.Add(this.label8);
-            this.tabPage2.Controls.Add(this.label9);
-            this.tabPage2.Controls.Add(this.label10);
-            this.tabPage2.Controls.Add(this.label11);
-            this.tabPage2.Controls.Add(this.Label35);
-            this.tabPage2.Controls.Add(this.DBStxt);
-            this.tabPage2.Controls.Add(this.TenantEmailtxt);
-            this.tabPage2.Controls.Add(this.TenantPhonenumbertxt);
-            this.tabPage2.Controls.Add(this.TenantFnametxt);
-            this.tabPage2.Controls.Add(this.SearchBartxt);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(724, 380);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.label12);
-            this.tabPage3.Controls.Add(this.EICREXPIRYTXT);
-            this.tabPage3.Controls.Add(this.button3);
-            this.tabPage3.Controls.Add(this.label13);
-            this.tabPage3.Controls.Add(this.Postcodetxt);
-            this.tabPage3.Controls.Add(this.button4);
-            this.tabPage3.Controls.Add(this.button5);
-            this.tabPage3.Controls.Add(this.label14);
-            this.tabPage3.Controls.Add(this.LABEL46456);
-            this.tabPage3.Controls.Add(this.ISVACENTTXT);
-            this.tabPage3.Controls.Add(this.RENTDUETXT);
-            this.tabPage3.Controls.Add(this.button6);
-            this.tabPage3.Controls.Add(this.label15);
-            this.tabPage3.Controls.Add(this.label16);
-            this.tabPage3.Controls.Add(this.label17);
-            this.tabPage3.Controls.Add(this.label18);
-            this.tabPage3.Controls.Add(this.label19);
-            this.tabPage3.Controls.Add(this.label20);
-            this.tabPage3.Controls.Add(this.label);
-            this.tabPage3.Controls.Add(this.RENTTXT);
-            this.tabPage3.Controls.Add(this.GASCERTEXPIRY);
-            this.tabPage3.Controls.Add(this.EPCEXPIRYTXT);
-            this.tabPage3.Controls.Add(this.EPCRatingtxt);
-            this.tabPage3.Controls.Add(this.Addresstxt);
-            this.tabPage3.Controls.Add(this.SEARCHTXT);
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(724, 380);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "tabPage3";
-            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -386,6 +324,35 @@
             this.Nametxt.Size = new System.Drawing.Size(124, 22);
             this.Nametxt.TabIndex = 86;
             // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.Clearbutton);
+            this.tabPage2.Controls.Add(this.label3);
+            this.tabPage2.Controls.Add(this.label4);
+            this.tabPage2.Controls.Add(this.TenantLnametxt);
+            this.tabPage2.Controls.Add(this.TenantMnametxt);
+            this.tabPage2.Controls.Add(this.Notesbutton);
+            this.tabPage2.Controls.Add(this.NotesUpdate);
+            this.tabPage2.Controls.Add(this.button2);
+            this.tabPage2.Controls.Add(this.label7);
+            this.tabPage2.Controls.Add(this.label8);
+            this.tabPage2.Controls.Add(this.label9);
+            this.tabPage2.Controls.Add(this.label10);
+            this.tabPage2.Controls.Add(this.label11);
+            this.tabPage2.Controls.Add(this.Label35);
+            this.tabPage2.Controls.Add(this.DBStxt);
+            this.tabPage2.Controls.Add(this.TenantEmailtxt);
+            this.tabPage2.Controls.Add(this.TenantPhonenumbertxt);
+            this.tabPage2.Controls.Add(this.TenantFnametxt);
+            this.tabPage2.Controls.Add(this.SearchBartxt);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(613, 397);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
             // Clearbutton
             // 
             this.Clearbutton.Location = new System.Drawing.Point(503, 60);
@@ -566,6 +533,41 @@
             this.SearchBartxt.Name = "SearchBartxt";
             this.SearchBartxt.Size = new System.Drawing.Size(124, 22);
             this.SearchBartxt.TabIndex = 72;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.label12);
+            this.tabPage3.Controls.Add(this.EICREXPIRYTXT);
+            this.tabPage3.Controls.Add(this.button3);
+            this.tabPage3.Controls.Add(this.label13);
+            this.tabPage3.Controls.Add(this.Postcodetxt);
+            this.tabPage3.Controls.Add(this.button4);
+            this.tabPage3.Controls.Add(this.button5);
+            this.tabPage3.Controls.Add(this.label14);
+            this.tabPage3.Controls.Add(this.LABEL46456);
+            this.tabPage3.Controls.Add(this.ISVACENTTXT);
+            this.tabPage3.Controls.Add(this.RENTDUETXT);
+            this.tabPage3.Controls.Add(this.button6);
+            this.tabPage3.Controls.Add(this.label15);
+            this.tabPage3.Controls.Add(this.label16);
+            this.tabPage3.Controls.Add(this.label17);
+            this.tabPage3.Controls.Add(this.label18);
+            this.tabPage3.Controls.Add(this.label19);
+            this.tabPage3.Controls.Add(this.label20);
+            this.tabPage3.Controls.Add(this.label);
+            this.tabPage3.Controls.Add(this.RENTTXT);
+            this.tabPage3.Controls.Add(this.GASCERTEXPIRY);
+            this.tabPage3.Controls.Add(this.EPCEXPIRYTXT);
+            this.tabPage3.Controls.Add(this.EPCRatingtxt);
+            this.tabPage3.Controls.Add(this.Addresstxt);
+            this.tabPage3.Controls.Add(this.SEARCHTXT);
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(613, 397);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "tabPage3";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // label12
             // 
@@ -801,14 +803,37 @@
             this.SEARCHTXT.Size = new System.Drawing.Size(124, 22);
             this.SEARCHTXT.TabIndex = 72;
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(21, 109);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(144, 244);
+            this.listBox1.TabIndex = 3;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(19, 377);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(145, 60);
+            this.button7.TabIndex = 4;
+            this.button7.Text = "button7";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // TEST
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.tabControl1);
             this.Name = "TEST";
             this.Text = "TEST";
+            this.Load += new System.EventHandler(this.TEST_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
@@ -889,5 +914,7 @@
         private System.Windows.Forms.TextBox EPCRatingtxt;
         private System.Windows.Forms.TextBox Addresstxt;
         private System.Windows.Forms.TextBox SEARCHTXT;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button button7;
     }
 }

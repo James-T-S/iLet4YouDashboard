@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SQLite;
+using System.Diagnostics;
 using System.Drawing;
+using System.Drawing.Text;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,11 +14,13 @@ using System.Windows.Forms;
 
 namespace iLet4You
 {
-    public partial class TEST : Form
+    public partial class Search : Form
     {
-        public TEST()
+        public Search()
         {
             InitializeComponent();
+            loadshortcuts();
+            showshortcuts();    
         }
         DataTable dt = new DataTable();//for tenant
         DataTable dt2 = new DataTable();//property
@@ -630,6 +635,95 @@ namespace iLet4You
             int PropertyID = Convert.ToInt32(dt.Rows[currentpropertyindex]["PROPERTYID"]);
             TenantNote note = new TenantNote(PropertyID);
             note.Show();
+        }
+
+        private void TEST_Load(object sender, EventArgs e)
+        {
+
+        }
+
+       
+
+
+
+
+
+
+
+        List<string> shortcuts = new List<string>();
+        private const string savefilename = "shortcuts.dat";
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedIndex != -1)
+            {
+                var path = shortcuts[listBox1.SelectedIndex];
+                try
+                {
+                    if (File.Exists(path))
+                    {
+                        Process.Start(path);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Cant Find File");
+                    }
+
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    return;
+                }
+
+            }
+
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            using(OpenFileDialog fileDialog = new OpenFileDialog())
+            {
+                fileDialog.Filter = "All Files|*.*";
+                if(fileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    if(!shortcuts.Contains(fileDialog.FileName))
+                    {
+                        shortcuts.Add(fileDialog.FileName);
+                        savehortcuts();
+                        showshortcuts();
+
+                    }
+                }
+            }
+
+
+
+            
+        }
+
+        private void showshortcuts()
+        {
+            listBox1.Items.Clear();
+            foreach(var path in shortcuts)
+            {
+                listBox1.Items.Add(Path.GetFileNameWithoutExtension(path));
+            }
+        }
+
+        private void savehortcuts()
+        {
+            File.WriteAllLines(savefilename, shortcuts);
+
+        }
+
+        private void loadshortcuts()
+        {
+            if(File.Exists(savefilename))
+            {
+                shortcuts = new List<string>(File.ReadAllLines(savefilename));
+            }
         }
     }
 }
