@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace iLet4You
 {
-    public partial class Note : Form
+    public partial class PropertyNotescs : Form
     {
-        public Note()
+        public PropertyNotescs(int PropertID)
         {
             InitializeComponent();
+        }
+
+        private void PropertyNotescs_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

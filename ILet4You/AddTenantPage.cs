@@ -16,5 +16,10 @@ namespace iLet4You
         {
             InitializeComponent();
         }
+
+        private void AddTenantPage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

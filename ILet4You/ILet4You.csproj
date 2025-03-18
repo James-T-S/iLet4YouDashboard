@@ -107,17 +107,29 @@
     <Compile Include="Homepage.Designer.cs">
       <DependentUpon>Homepage.cs</DependentUpon>
     </Compile>
+    <Compile Include="LandlordNotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LandlordNotes.Designer.cs">
+      <DependentUpon>LandlordNotes.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginPage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LoginPage.Designer.cs">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Note.cs">
+    <Compile Include="PropertyNotescs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Note.Designer.cs">
-      <DependentUpon>Note.cs</DependentUpon>
+    <Compile Include="PropertyNotescs.Designer.cs">
+      <DependentUpon>PropertyNotescs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TenantNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TenantNote.Designer.cs">
+      <DependentUpon>TenantNote.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -145,6 +157,12 @@
     <Compile Include="SearchTenant.Designer.cs">
       <DependentUpon>SearchTenant.cs</DependentUpon>
     </Compile>
+    <Compile Include="TEST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TEST.Designer.cs">
+      <DependentUpon>TEST.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddLandlord.resx">
       <DependentUpon>AddLandlord.cs</DependentUpon>
     </EmbeddedResource>
@@ -163,11 +181,17 @@
     <EmbeddedResource Include="Homepage.resx">
       <DependentUpon>Homepage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LandlordNotes.resx">
+      <DependentUpon>LandlordNotes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Note.resx">
-      <DependentUpon>Note.cs</DependentUpon>
+    <EmbeddedResource Include="PropertyNotescs.resx">
+      <DependentUpon>PropertyNotescs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TenantNote.resx">
+      <DependentUpon>TenantNote.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -190,6 +214,10 @@
     <EmbeddedResource Include="SearchTenant.resx">
       <DependentUpon>SearchTenant.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TEST.resx">
+      <DependentUpon>TEST.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DBiLet4You.db" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
